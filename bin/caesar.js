@@ -1,5 +1,4 @@
 var caesarShift = function (str, amount) {
-    console.log(str, amount);
     // Se for informado valor negativo
     if (amount < 0) {
       return caesarShift(str, amount + 26);
@@ -12,9 +11,8 @@ var caesarShift = function (str, amount) {
     for (var i = 0; i < str.length; i++) {
       // Selecionar o caractere
       var c = str[i];
-  
-      // Verifica se é uma letra
-      if (c.match(/[a-z]/i)) {
+      // Verifica se é uma letra ou número
+      if (c.match(/[a-z0-9]/i)) {
         // Seleciona o código ASCII
         var code = str.charCodeAt(i);
   
@@ -25,6 +23,11 @@ var caesarShift = function (str, amount) {
         // Minúsculas
         else if (code >= 97 && code <= 122) {
           c = String.fromCharCode(((code - 97 + amount) % 26) + 97);
+        }
+
+        // Números
+        else if(code >= 48 && code <= 57){
+          c = String.fromCharCode(((code - 48 + amount) % 10) + 48);
         }
       }
   

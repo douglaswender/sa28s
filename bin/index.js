@@ -33,10 +33,9 @@ program
             
             let k = 0;
             
+            //verifica se o parâmetro K existe, se for nulo ele atribui como 0
             if(options.k === null || options.k === true || options.k === undefined){
-                console.log('k throw');
                 k = 0;
-                console.log(k);
             } else{
                 if(options.d === true){
                     k = k-parseInt(options.k)
@@ -44,9 +43,9 @@ program
                     k = parseInt(options.k);
                 }
             }
+
             k = k;
             const encrypt = caesar.caesarShift(str, k);
-            console.log(encrypt);
             fileManager.writeFile(outputPath, encrypt);
         }
     });
