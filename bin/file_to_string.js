@@ -1,7 +1,15 @@
 const fs = require("fs");
 
-const fileContents = (filePath)=>{
-    fs.readFileSync(filePath).toString();
+const readFile = (filePath)=>{
+    console.log(filePath);
+    return fs.readFileSync(filePath).toString();
 };
 
-export default fileContents;
+const writeFile = (filePath, str) =>{
+    fs.writeFile(filePath, str, (err)=>{
+        if(err) return console.log(err);
+    });
+
+}
+
+module.exports = {readFile, writeFile};

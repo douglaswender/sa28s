@@ -1,5 +1,6 @@
 var caesarShift = function (str, amount) {
-    // Se não for informado o quanto o algoritmo deve "andar", o padrão é 26
+    console.log(str, amount);
+    // Se for informado valor negativo
     if (amount < 0) {
       return caesarShift(str, amount + 26);
     }
@@ -21,7 +22,6 @@ var caesarShift = function (str, amount) {
         if (code >= 65 && code <= 90) {
           c = String.fromCharCode(((code - 65 + amount) % 26) + 65);
         }
-  
         // Minúsculas
         else if (code >= 97 && code <= 122) {
           c = String.fromCharCode(((code - 97 + amount) % 26) + 97);
@@ -36,4 +36,6 @@ var caesarShift = function (str, amount) {
     return output;
   };
 
-  export default caesarShift;
+module.exports = {
+  caesarShift,
+};
