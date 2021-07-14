@@ -42,11 +42,13 @@ chmod 777 run.sh
 
 A partir deste momento o comando "cesar" e "decifra" já deve estar funcionando! Já existe um arquivo text.txt no diretório do arquivo, pode usar para a funcionalidade. Utilize o nano para escolher a frase que deseja encriptografar
 
+## Cesar
+
 #### Criptografar:
 
 ```
 
-cesar <arquivo.txt> -c -k <chave>
+cesar -c -k <chave> texto-aberto.txt texto-cifrado.txt
 
 ```
 
@@ -54,8 +56,28 @@ cesar <arquivo.txt> -c -k <chave>
 
 ```
 
-cesar <arquivo.txt> -d -k <chave>
+cesar -d -k <chave> texto-cifrado.txt texto-aberto.txt
 
+```
+
+## Decifra
+
+```
+decifra texto-cifrado.txt texto-aberto.txt
+```
+
+## Vernam
+
+#### Criptografar:
+
+```
+vernam -c chave.dat texto-aberto.txt texto-cifrado.txt
+```
+
+#### Decifrar (utilizando o algoritmo de César):
+
+```
+vernam -d chave.dat texto-cifrado.txt texto-aberto.txt
 ```
 
 ### Ambiente testado:
