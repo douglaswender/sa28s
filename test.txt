@@ -1,1 +1,42 @@
-1asubK
+De uma forma bem simplifica podemos entender a diagramação como sendo um conjunto de técnicas para distribuir e organizar os elementos gráficos em um espaço delimitado.
+Palavras, tão importante quanto o espaço em branco
+
+Aqui é importante termos a ciência de que o texto é um dos elementos mais importantes em qualquer design, mas que também tão importante quanto as letras, é o espaçamento entre elas. Ou seja, saber fazer uma boa diagramação pode fazer toda a diferença em um design.
+
+Por isso separei algumas técnicas que podem nos ajudar a melhorar a hierarquia e a leitura dos textos.
+1. Leading
+
+Em resumo, refere-se ao espaçamento entre as linhas, e para garantir uma boa legibilidade do texto é importante certificar-se que ele esteja em um bom tamanho.
+
+Muitos fatores influenciam no tamanho do Leading, como por exemplo, o tipo da letra, tamanho ou peso. Mas para a maioria dos textos uma dica interessante para se considerar de "espaçamento ideal" é multiplicar o tamanho da fonte por 1,5.
+
+Exemplo: Se a fonte que você está utilizando em seu projeto tem 18px de tamanho você pode utilizar 27px de leading.
+2. Medida
+
+Trata-se do comprimento de uma linha de texto, a atenção aqui deve estar focada na quantidade de caracteres presentes.
+
+Uma maneira de calcular essa medida é utilizando o método de Robert Bringhurts que multiplica o tamanho da fonte por 30. Ou seja, se você está utilizando uma fonte de tamanho 18px o cálculo ficaria assim:
+
+Sendo essa a medida da sua caixa de texto.
+3. Viúva
+
+Ocorre quando existe uma linha muito curta no fim do parágrafo que fica no início da página seguinte ou da coluna, separada do resto do texto, e isso interrompe a atenção do leitor e diminuindo a legibilidade do texto.
+
+Uma forma de evitar esse elemento é ajustando o seu texto, adicionando ou retirando palavras.
+4. Ritmo
+
+O ritmo se refere a um padrão, e aqui quanto mais consistente for esse padrão mais fácil será de se estabelecer um ritmo de leitura sem obstáculos, resultando em uma melhor compressão do conteúdo.
+
+Essa estrutura ajuda a orientar o olho de um leitor através do conteúdo.
+5. Escala
+
+É a maneira de determinar os tamanhos tipográficos do texto, criando assim harmonia, coesão e melhorando a legibilidade do conteúdo. Além de ser importante por estabelecer uma hierarquia tipográfica.
+
+Existem vários tipos de escala, mas uma boa dica é utilizar a escala do material design.
+Material Design
+Build beautiful, usable products faster. Material Design is an adaptable system-backed by open-source code-that helps…
+
+material.io
+Conclusão
+
+Sabemos que para todas as regras existem suas excessões, mas utilizar corretamente esses princípios irá te ajudar a criar conteúdos melhores, e saber distribuir os elementos de uma forma eficaz fará com que você influencie a percepção do seu usuário, melhorando assim a sua experiência. Então, apostar nelas podem te trazer resultados benéficos.

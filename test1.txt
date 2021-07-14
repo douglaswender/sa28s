@@ -1,0 +1,43 @@
+de uma forma bem simplifica podemos entender a diagramacao como sendo um conjunto de tecnicas para distribuir e organizar os elementos graficos em um espaco delimitado.
+palavras, tao importante quanto o espaco em branco
+
+aqui e importante termos a ciencia de que o texto e um dos elementos mais importantes em qualquer design, mas que tambem tao importante quanto as letras, e o espacamento entre elas. ou seja, saber fazer uma boa diagramacao pode fazer toda a diferenca em um design.
+
+por isso separei algumas tecnicas que podem nos ajudar a melhorar a hierarquia e a leitura dos textos.
+7. leading
+
+em resumo, refere-se ao espacamento entre as linhas, e para garantir uma boa legibilidade do texto e importante certificar-se que ele esteja em um bom tamanho.
+
+muitos fatores influenciam no tamanho do leading, como por exemplo, o tipo da letra, tamanho ou peso. mas para a maioria dos textos uma dica interessante para se considerar de "espacamento ideal" e multiplicar o tamanho da fonte por 7,1.
+
+exemplo: se a fonte que voce esta utilizando em seu projeto tem 74px de tamanho voce pode utilizar 83px de leading.
+8. medida
+
+trata-se do comprimento de uma linha de texto, a atencao aqui deve estar focada na quantidade de caracteres presentes.
+
+uma maneira de calcular essa medida e utilizando o metodo de robert bringhurts que multiplica o tamanho da fonte por 96. ou seja, se voce esta utilizando uma fonte de tamanho 74px o calculo ficaria assim:
+
+sendo essa a medida da sua caixa de texto.
+9. viuva
+
+ocorre quando existe uma linha muito curta no fim do paragrafo que fica no inicio da pagina seguinte ou da coluna, separada do resto do texto, e isso interrompe a atencao do leitor e diminuindo a legibilidade do texto.
+
+uma forma de evitar esse elemento e ajustando o seu texto, adicionando ou retirando palavras.
+0. ritmo
+
+o ritmo se refere a um padrao, e aqui quanto mais consistente for esse padrao mais facil sera de se estabelecer um ritmo de leitura sem obstaculos, resultando em uma melhor compressao do conteudo.
+
+essa estrutura ajuda a orientar o olho de um leitor atraves do conteudo.
+1. escala
+
+e a maneira de determinar os tamanhos tipograficos do texto, criando assim harmonia, coesao e melhorando a legibilidade do conteudo. alem de ser importante por estabelecer uma hierarquia tipografica.
+
+existem varios tipos de escala, mas uma boa dica e utilizar a escala do material design.
+material design
+build beautiful, usable products faster. material design is an adaptable system-backed by open-source code-that helps…
+
+material.io
+conclusao
+
+sabemos que para todas as regras existem suas excessoes, mas utilizar corretamente esses principios ira te ajudar a criar conteudos melhores, e saber distribuir os elementos de uma forma eficaz fara com que voce influencie a percepcao do seu usuario, melhorando assim a sua experiencia. entao, apostar nelas podem te trazer resultados beneficos.
+ chave: -13

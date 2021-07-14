@@ -1,9 +1,9 @@
 #! /usr/bin/env node
 
 const program = require('commander');
-const package = require('../package.json');
-const fileManager = require('./file_to_string');
-const accents = require('./remove_accents');
+const package = require('../../package.json');
+const fileManager = require('../file-to-string');
+const accents = require('../remove-accents');
 const caesar = require('./caesar');
 
 program.version(package.version);
@@ -16,13 +16,13 @@ program
     .option('-d', 'roda script para descrifrar o arquivo de texto')
     .option('-k [key]', 'informa a chave de criptografia para o algoritmo')
     .action((path, outputPath, options)=>{
-        console.log(`path: ${path}`);
-        console.log(`outputPath: ${outputPath}`);
-        console.log(options);
+        //console.log(`path: ${path}`);
+        //console.log(`outputPath: ${outputPath}`);
+        //console.log(options);
         let str = fileManager.readFile(path);
-        console.log(str);
+        //console.log(str);
         str = accents.removeAccents(str);
-        console.log(str);
+        //console.log(str);
 
         if(options.c == true && options.d == true){
             console.log('Use apenas uma opção (-c ou -d)');

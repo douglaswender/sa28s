@@ -12,12 +12,15 @@ const accentsMap = new Map([
     ["C", "Ç"],
     ["c", "ç"],
     ["N", "Ñ"],
-    ["n", "ñ"]
+    ["n", "ñ"],
   ]);
   
   const reducer = (acc, [key]) => acc.replace(new RegExp(accentsMap.get(key), "g"), key);
   
   const removeAccents = (text) => [...accentsMap].reduce(reducer, text);
+
+  const removeSpaces = (text) => text.replaceAll(" ", "");
   module.exports = {
-    removeAccents
+    removeAccents,
+    removeSpaces
   }

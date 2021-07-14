@@ -28,6 +28,7 @@ var caesarShift = function (str, amount) {
         // Números
         else if(code >= 48 && code <= 57){
           c = String.fromCharCode(((code - 48 + amount) % 10) + 48);
+          console.log(c);
         }
       }
   
