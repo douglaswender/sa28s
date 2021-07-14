@@ -1,3 +1,1 @@
-npm install
-
-npm link
+npm install && npm link
