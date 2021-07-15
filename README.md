@@ -88,4 +88,4 @@ node versão utilizada: v14.17.3
 
 ## Mais informações:
 
-[Notion](https://www.notion.so/Como-rodar-o-script-no-Ubuntu-16-0709f7e5b94d40569de76b15727acc29)
+[Notion](https://www.notion.so/Como-rodar-o-script-no-Ubuntu-16-0709f7e5b94d40569de76b15727acc29) (Desatualizado)
